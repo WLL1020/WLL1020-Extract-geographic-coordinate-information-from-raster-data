@@ -21,7 +21,7 @@ def out(data, name):
 
 
 if __name__ == "__main__":
-    filePath = 'E:/测绘论文/BaseData/InsertPoint/结果/温度2_评论区公式忽略值.tif'  # tif文件路径
+    filePath = 'E:/温度反演/BaseData/InsertPoint/结果/温度2_评论区公式忽略值.tif'  # tif文件路径
     dataset = gdal.Open(filePath)  # 打开tif
 
 
